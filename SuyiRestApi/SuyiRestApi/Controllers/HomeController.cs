@@ -1,4 +1,6 @@
-﻿using SuyiRestApi.Models;
+﻿using SuyiRestApi.ATS;
+using SuyiRestApi.ATS.AtsEntities;
+using SuyiRestApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +20,9 @@ namespace SuyiRestApi.Controllers
 
         public List<MenteeCandidateMatchModel> GetMenteeCandidateMatches()
         {
+            var atsProvider = new AzureTableStorageProvider();
+
+            var quarters = atsProvider.FetchEntities<QuarterEntity>("Quarter", TableType.Quarter);
             return new List<MenteeCandidateMatchModel>();
         }
     }

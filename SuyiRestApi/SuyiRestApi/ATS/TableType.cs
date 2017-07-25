@@ -7,6 +7,10 @@ namespace SuyiRestApi.ATS
 {
     public enum TableType
     {
-        Mentee
+        Mentee,
+        Quarter,
+        Mentor,
+        MentorAvailability,
+
     }
 }

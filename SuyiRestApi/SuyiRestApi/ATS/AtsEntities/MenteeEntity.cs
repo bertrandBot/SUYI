@@ -7,7 +7,7 @@ using System.Xml.Serialization;
 
 namespace SuyiRestApi.ATS.AtsEntities
 {
-    public class QuarterEntity : TableEntity
+    public class MenteeEntity : TableEntity
     {
         [XmlIgnore]
         public string quarterName

@@ -7,15 +7,19 @@ using System.Xml.Serialization;
 
 namespace SuyiRestApi.ATS.AtsEntities
 {
-    public class QuarterEntity : TableEntity
+    public class MentorAvailabilityEntity : TableEntity
     {
-        [XmlIgnore]
-        public string quarterName
+        public string MentorAvailabilityId
         {
             get
             {
-                return this.RowKey;
+                return this.PartitionKey;
             }
         }
+
+        public DateTime StartTimePst { get; set; }
+
+        public DateTime EndTimePst { get; set; }
+        
     }
 }

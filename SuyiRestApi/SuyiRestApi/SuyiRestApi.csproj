@@ -230,6 +230,9 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="ATS\AtsEntities\MentorAvailabilityEntity.cs" />
+    <Compile Include="ATS\AtsEntities\MentorEntity.cs" />
+    <Compile Include="ATS\AtsEntities\MenteeEntity.cs" />
     <Compile Include="ATS\AtsEntities\QuarterEntity.cs" />
     <Compile Include="ATS\AzureTableStorageProvider.cs" />
     <Compile Include="ATS\TableType.cs" />
