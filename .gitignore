@@ -1,2 +1,6 @@
 .vs/
 bin/
+/SuyiRestApi/SuyiRestApi/Scripts/jquery.validate.unobtrusive.min.js
+/SuyiRestApi/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/jquery.validate.unobtrusive.min.js
+/SuyiRestApi/packages/Microsoft.jQuery.Unobtrusive.Validation.3.2.3/Content/Scripts/jquery.validate.unobtrusive.js
+/SuyiRestApi/SuyiRestApi/Scripts/jquery.validate.unobtrusive.js
